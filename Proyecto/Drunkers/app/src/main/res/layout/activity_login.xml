@@ -9,7 +9,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/colorBlanco">
 
         <ImageView
             android:id="@+id/imageView"
@@ -51,8 +60,8 @@
             android:id="@+id/btnRegistro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registrarse"
-            android:background="@color/colorBotonesPrimarios"/>
+            android:background="@color/colorBotonesPrimarios"
+            android:text="Registrarse" />
 
         <TextView
             android:id="@+id/textView"
@@ -63,24 +72,22 @@
             android:id="@+id/button3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entrar con Facebook"
             android:background="@color/colorFacebook"
-            />
+            android:text="Entrar con Facebook" />
 
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entrar con Twitter"
             android:background="@color/colorTwitter"
-            />
+            android:text="Entrar con Twitter" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Entrar con Google"
-            android:background="@color/colorVerde"/>
+            android:background="@color/colorVerde"
+            android:text="Entrar con Google" />
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

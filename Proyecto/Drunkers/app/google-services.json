@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "586745014621",
+    "firebase_url": "https://drunkers-45990.firebaseio.com",
+    "project_id": "drunkers-45990",
+    "storage_bucket": "drunkers-45990.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586745014621:android:aa9c0e246eff74db",
+        "android_client_info": {
+          "package_name": "com.drunker.drunkers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586745014621-g3p3fjklcvavf793voj083068eaj7nuu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.drunker.drunkers",
+            "certificate_hash": "8468eef127d25b32b94165777def2d7a95dfa80e"
+          }
+        },
+        {
+          "client_id": "586745014621-b8vn4k04orndn1p9ft2dv2pdiaq5dl9k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwq52PBixIdVBFvCeG14kdEpzCbpeQgZA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586745014621-b8vn4k04orndn1p9ft2dv2pdiaq5dl9k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

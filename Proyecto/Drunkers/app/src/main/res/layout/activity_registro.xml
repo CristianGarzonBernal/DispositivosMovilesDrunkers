@@ -17,12 +17,12 @@
             android:layout_height="116dp" />
 
         <EditText
-            android:id="@+id/etUsuario"
+            android:id="@+id/etCorreo"
             android:layout_width="match_parent"
-            android:layout_height="67dp"
+            android:layout_height="60dp"
             android:ems="10"
-            android:hint="Usuario"
-            android:inputType="textPersonName" />
+            android:hint="Correo:"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/etContraseña"
@@ -33,20 +33,12 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/etRepetirContraseña"
+            android:id="@+id/etRepContraseña"
             android:layout_width="match_parent"
             android:layout_height="56dp"
             android:ems="10"
             android:hint="Repetir contraseña"
             android:inputType="textPersonName" />
-
-        <EditText
-            android:id="@+id/etCorreo"
-            android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:ems="10"
-            android:hint="Correo:"
-            android:inputType="textEmailAddress" />
 
         <TextView
             android:id="@+id/textView4"
@@ -59,7 +51,7 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/etAtras"
+                android:id="@+id/btnAtras"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -67,7 +59,7 @@
                 android:text="Atras" />
 
             <Button
-                android:id="@+id/etResgistrarse"
+                android:id="@+id/btnResgistrarse"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

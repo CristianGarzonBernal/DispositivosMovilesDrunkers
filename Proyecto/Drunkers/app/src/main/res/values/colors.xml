@@ -7,5 +7,8 @@
     <color name="colorTwitter">#80c6ff</color>
     <color name="colorFacebook">#14568c</color>
     <color name="colorVerde">#80ff84</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="colordMoradoOscuro">#4A148C</color>
+
 
 </resources>

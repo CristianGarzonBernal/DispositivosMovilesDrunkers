@@ -32,6 +32,38 @@
                     android:layout_height="match_parent">
 
                     <LinearLayout
+                        android:id="@+id/Licor"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btComprar"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:background="@color/colorBotonesPrimarios"
+                            android:text="Comprar" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <SearchView
+                                android:id="@+id/searchView"
+                                android:layout_width="380dp"
+                                android:layout_height="70dp" />
+
+                            <ListView
+                                android:layout_width="500dp"
+                                android:layout_height="400dp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
+                                android:layout_below="@+id/searchView" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:id="@+id/Bartender"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
@@ -67,38 +99,6 @@
                                 android:background="@color/colorBotonesPrimarios"
                                 android:text="Pedir bartender" />
 
-                        </RelativeLayout>
-                    </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/Licor"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <Button
-                            android:id="@+id/btComprar"
-                            android:layout_width="200dp"
-                            android:layout_height="wrap_content"
-                            android:text="Comprar"
-                            android:background="@color/colorBotonesPrimarios"
-                            android:layout_marginLeft="100dp"/>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent">
-
-                            <SearchView
-                                android:id="@+id/searchView"
-                                android:layout_width="380dp"
-                                android:layout_height="70dp" />
-
-                            <ListView
-                                android:layout_width="500dp"
-                                android:layout_height="400dp"
-                                android:layout_alignParentLeft="true"
-                                android:layout_alignParentStart="true"
-                                android:layout_below="@+id/searchView" />
                         </RelativeLayout>
                     </LinearLayout>
 
